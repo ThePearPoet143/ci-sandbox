@@ -15,4 +15,4 @@ permissions:
 
 jobs:
   report:
-    uses: ThePearPoet143/ci/.github/workflows/report.yml@lishiyuadev/hq-33-a-repo-calls-cis-core-in-a-few-lines
+    uses: ThePearPoet143/ci/.github/workflows/report.yml@v0.6.0

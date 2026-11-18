@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   core:
-    uses: ThePearPoet143/ci/.github/workflows/core.yml@lishiyuadev/hq-33-a-repo-calls-cis-core-in-a-few-lines
+    uses: ThePearPoet143/ci/.github/workflows/core.yml@v0.6.0
     with:
       issue-prefix: HQ
       size-ignored: 'docs/**'
