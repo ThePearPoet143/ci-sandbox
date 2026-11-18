@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   core:
-    uses: ThePearPoet143/ci/.github/workflows/core.yml@v0.6.0
+    uses: ThePearPoet143/ci/.github/workflows/core.yml@lishiyuadev/hq-36-the-core-blocks-a-pr-that-adds-a-secret
     with:
       issue-prefix: HQ
       size-ignored: 'docs/**'
