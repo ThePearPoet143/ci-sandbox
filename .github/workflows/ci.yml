@@ -1,0 +1,22 @@
+# ci's core, at one version: https://github.com/ThePearPoet143/ci
+name: ci
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, labeled, unlabeled]
+  issue_comment:
+    types: [created, edited, deleted]
+
+permissions:
+  contents: read
+  checks: read
+  issues: write
+  pull-requests: write
+  statuses: write
+
+jobs:
+  core:
+    uses: ThePearPoet143/ci/.github/workflows/core.yml@lishiyuadev/hq-33-a-repo-calls-cis-core-in-a-few-lines
+    with:
+      issue-prefix: HQ
+      size-ignored: 'docs/**'
