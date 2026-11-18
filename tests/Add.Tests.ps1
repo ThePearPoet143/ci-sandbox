@@ -6,4 +6,6 @@ Describe 'Add-Number' {
 
 Describe 'Story 3' {
     It 'fails on purpose' { 1 | Should -Be 2 }
+Describe 'Get-Difference' {
+    It 'subtracts' { Get-Difference 5 3 | Should -Be 2 }
 }
