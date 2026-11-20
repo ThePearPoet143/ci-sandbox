@@ -5,3 +5,5 @@ A test repo where ci's stories are walked through on real pull requests
 script and its test, so product changes and rule changes can both be tried.
 
 The first commit went straight to `main`, before the repo had a rule set.
+
+Opened by an agent on sushihome-2.
